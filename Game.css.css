@@ -1,0 +1,71 @@
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .game-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  input[type="text"] {
+    padding: 0.6rem;
+    width: 80%;
+    border: 2px solid #4facfe;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    padding: 0.6rem 1.2rem;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background: #00c6fb;
+  }
+
+  .guesses,
+  .lostResult,
+  .loworHi {
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .button h1 {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #4facfe;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .button h1:hover {
+    color: #00c6fb;
+  }
+</style>
